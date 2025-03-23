@@ -2,6 +2,6 @@
 pkgs.mkShell {
   buildInputs = [
     pkgs.python311
-    python311Packages.numpy
+    pkgs.python311Packages.numpy
   ];
 }
